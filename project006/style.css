@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Mitr',sans-serif;
+    src: url('Mitr-SemiBold.ttf') format('truetype');
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+  h1 {
+    font-weight: 600;
+    font-size: 4vh;
+    line-height: 6vh;
+    height: 6vh;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mitr', sans-serif;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: #fafaff;
+  }
+  
+  button {
+    z-index: 1000;
+    cursor: pointer;
+    padding: 0;
+    width: 5vh;
+    height: 6vh;
+    background-color: transparent;
+    border: none;
+    color: #B7AEB4;
+    font-weight: 400;
+    line-height: 1em;
+    font-size: 2vh;
+    font-family: 'Mitr', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button img, button div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #B7AEB4;
+    border-radius: 20%;
+    width: 3vh;
+    height: 3vh;
+    margin: 0 0.25vh;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  body{
+    background-color: #6e5c62;
+  }  
+
+  #game-board {
+    display: flex;
+    justify-content: center;
+  }
+  .cell {
+    width: 75px;
+    height: 75px;
+    border: 1px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #504a4b;
+    opacity: 0.5;
+    margin: 2px;
+   
+  }
+
+  .cell2{
+    width: 68px;
+    height: 68px;
+    border: 1px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 4px solid #504a4b;
+    font-family: 'Mitr', sans-serif;
+    color: #fafaff;
+    margin: 2px;
+  }
+
+  .cell1{
+    width: 75px;
+    height: 75px;
+    border: 1px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #312a2c;
+    font-family: 'Mitr', sans-serif;
+    color: #fafaff;
+    margin: 2px;
+  }
+
+  .cellF{
+    width: 75px;
+    height: 75px;
+    border: 1px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #3aa394;
+    font-family: 'Mitr', sans-serif;
+    color: #fafaff;
+    margin: 2px;
+  }
+
+  .cellA{
+    width: 75px;
+    height: 75px;
+    border: 1px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #d3ad69;
+    font-family: 'Mitr', sans-serif;
+    color: #fafaff;
+    margin: 2px;
+  }
+
+  footer{
+    margin-top: 50px;
+  }
+
+  #teclado{
+    display: flex;
+    justify-content: center;
+  }
+
+  .cellT{
+    width: 60px;
+    height: 60px;
+    border: 1px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #312a2c;
+    font-family: 'Mitr', sans-serif;
+    color: #fafaff;
+    margin: 2px;
+    cursor: pointer;
+  }
+
+  .backspace{
+    width: 60px;
+    height: 60px;
+    border: 1px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #312a2c;
+    font-family: 'Mitr', sans-serif;
+    color: #fafaff;
+    margin: 2px 2px 2px 10px;
+  }
+
+  #imagemdoback{
+    width: 30px;
+    height: 30px;
+  }
+
+  .cellENTER{
+    width: 100px;
+    height: 60px;
+    border: 1px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #312a2c;
+    font-family: 'Mitr', sans-serif;
+    color: #fafaff;
+    margin: 2px;
+    margin: 2px 2px 2px 10px;
+  }
